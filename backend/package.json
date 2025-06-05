@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon index.js" 
+    "dev" : "nodemon server.js"
   },
   "keywords": [],
   "author": "",
@@ -18,9 +18,10 @@
     "express": "^5.1.0",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.15.1",
-    "nodemon": "^3.1.10",
     "socket.io": "^4.8.1"
   },
-
-  "_comment": "이 부분은 주석입니다. 따a1따 : 따Asdasd따  에서 a1값 자유롭게 수정가능.(변수 설정같은 느낌이란뜻) "
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "nodemon": "^3.1.10"
+  }
 }
