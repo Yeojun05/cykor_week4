@@ -6,7 +6,7 @@ const db =config.get('mongoURL');
 const connectDB =async()=>{
     try{
         await mongoose.connect(db,{
-            useNewYrlParser : true
+            //useNewYrlParser : true
         });
         console.log("connected_mongo");
     }catch(err)
